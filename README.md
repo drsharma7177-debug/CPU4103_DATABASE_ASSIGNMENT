@@ -40,6 +40,24 @@ SELECT * FROM Student;
 SELECT * FROM Student
 ORDER BY Age  ASC;
 SELECT * FROM Student;
+CPU4103 - INTRODUCTION TO DATABASE
+Project Overview
+This repository contains my practical work for CPU4103-Introduction to Database.I have used MYSQL to practice database creation , data manipulation, and querying.The practice database is called CPU4103_Practice, and the current table is Student.
+Technologies used;
+MYSQL server
+MYSQL workbench
+SQL
+GitHub for version control and project documentation
+Work Completed
+created  the CPU4103_Practice database
+created a student table ,defined student_id, first_name, last_name, email and defined a primary key for Student_id to identify each student
+used a unique constraint for email and inserted student records using INSERT INTO
+Retrived  records using SELECT FROM
+Added age column using ALTER TABLE and UPDAT and SET age
+Stored records by age using GROUP BY  like ; SELECT * FROM Student ORDER BY Age ASC;
+The query displays all the students records of age in ascending order.
+Learning Outcome;
+Through this practice i have developed my key understanding of database table , relationship between tables, why constraint is necessary and data normalization and using the queries in MYSQL.
 
 
 
